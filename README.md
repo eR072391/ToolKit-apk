@@ -9,3 +9,13 @@
 ・「TCP Connect」...Socketを使用してTCP接続を行います。<br>
 
 ## Usage
+見た目はこんな感じです。<br>
+![](images/1.png)
+<br>
+試しに「WHOIS」機能を使ってみます。<br>
+ダイアログが表示され、ドメイン名を入力すると、結果が表示されます。<br>
+![](images/2.png)![](images/3.png)
+<br>
+次に、「TCP Connect」機能は、Socketを使用してTCP接続を行っているので、<br>
+好きなリクエストを送信することができます。<br>
+![](images/4.png)![](images/5.png)
