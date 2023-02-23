@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/exifButton"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:backgroundTint="#8793D8"
+        android:text="Exif情報取得"
+        android:textColor="#000000"
+        android:textIsSelectable="true"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/domainToIp"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:backgroundTint="#5159EA"
+        android:text="Domain -> IP"
+        android:textColor="#000000"
+        android:textIsSelectable="true"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/exifButton" />
+
+    <Button
+        android:id="@+id/internetCheckButton"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:backgroundTint="#DF53E4"
+        android:text="インターネット接続確認"
+        android:textColor="#000000"
+        android:textIsSelectable="true"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/domainToIp" />
+
+    <Button
+        android:id="@+id/whoisButton"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:text="WHOIS"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/internetCheckButton" />
+
+    <Button
+        android:id="@+id/portScanButton"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:backgroundTint="#449F53"
+        android:text="Port Scan"
+        android:textColor="#0E0606"
+        android:textIsSelectable="true"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/whoisButton" />
+
+    <Button
+        android:id="@+id/tcpConnectButton"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:text="TCP Connect"
+        android:textIsSelectable="true"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/portScanButton" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
